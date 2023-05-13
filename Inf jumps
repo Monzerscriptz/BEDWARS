@@ -1,0 +1,5 @@
+local infintejumpenabled = true
+game:GetService("UserinputService").jumprequeif infintejumpenabled then game:GetService"players".local
+       End
+end) 
+
