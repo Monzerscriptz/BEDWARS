@@ -1,0 +1,19 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local window = kavoUi.CreateLib("Monzerscriptz script BH","BloodTheme")
+
+---Hi
+
+local Tab1 = window:NewTab("MAIN")
+
+local Tab1Section = Tab1:NewSection("MAIN stuff")
+
+--
+
+Tab1Section:NewButton("Special","Credits to: JN HH GAMING for helping me",function()
+
+local WalkSpeed = 500
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 500
+
+end) 
